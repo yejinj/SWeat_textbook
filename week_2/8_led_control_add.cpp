@@ -11,11 +11,12 @@ void loop() {
         for (int i = 0; i <= 255; i += 5) {
             analogWrite(ledPin, i);
             delay(10);
-        } else {
+        }
+      } else {
             analogWrite(ledPin, 0);
         }
-    }
-
+    
+    
     // 밝기 증가 감소 간격 변경
     // for (int brightness = 0; brightness <= 255; brightness++) {
     //     analogWrite(ledPin, brightness);
@@ -25,4 +26,5 @@ void loop() {
     //     analogWrite(ledPin, brightness);
     //     delay(10);
     // }
-}
+    
+    }
