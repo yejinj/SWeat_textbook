@@ -1,7 +1,7 @@
 int potPin = 0;
 int ledPin = 11;
 int potValue = 0;
-int ledValue = 0;
+int brightness = 0;
 
 void setup() {
     pinMode(ledPin, OUTPUT);
